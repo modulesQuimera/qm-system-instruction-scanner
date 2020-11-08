@@ -1,0 +1,25 @@
+{
+  "name": "qm-system-instruction-scanner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scanner.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modulesQuimera/qm-system-instruction-scanner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/modulesQuimera/qm-system-instruction-scanner/issues"
+  },
+  "homepage": "https://github.com/modulesQuimera/qm-system-instruction-scanner#readme",
+  "node-red" : {
+    "nodes": {
+        "scanner": "scanner.js"
+    }
+  }
+}
